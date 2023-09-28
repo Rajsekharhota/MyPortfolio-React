@@ -1,12 +1,7 @@
 import React from "react";
-// import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
-// import navbar from "../assets/portfolio/navbar.jpg";
-// import reactParallax from "../assets/portfolio/reactParallax.jpg";
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import Shopper from "../assets/portfolio/Shopper.png";
 import Dashboard from "../assets/portfolio/Dashboardui.png";
+import TaskManager from "../assets/portfolio/TaskManager.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,6 +14,11 @@ const Portfolio = () => {
       id: 2,
       src: Dashboard,
       link: "https://64afbb52b08cad3764aff8a2--leafy-choux-4009a6.netlify.app/",
+    },
+    {
+      id: 3,
+      src: TaskManager,
+      link: "https://task-management-react-firebase.vercel.app/",
     },
   ];
 
