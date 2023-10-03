@@ -16,11 +16,10 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Enthusiastic Front-End developer with one year of experience working
+            Enthusiastic Front-End developer with a good knowledge on working
             with JavaScript, HTML, CSS, React JS to deliver exceptional customer
             experience
-            <br /> Currently I love to work on web application using
-            technologies like React JS, Tailwind, and Material UI.
+            <br /> Currently I love to work on web application using ReactJS.
           </p>
           <div>
             <Link
