@@ -2,6 +2,7 @@ import React from "react";
 import Shopper from "../assets/portfolio/Shopper.png";
 import Dashboard from "../assets/portfolio/Dashboardui.png";
 import TaskManager from "../assets/portfolio/TaskManager.png";
+import PhotoGallery from "../assets/portfolio/photogallery.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,6 +20,11 @@ const Portfolio = () => {
       id: 3,
       src: TaskManager,
       link: "https://task-management-react-firebase.vercel.app/",
+    },
+    {
+      id: 4,
+      src: PhotoGallery,
+      link: "https://photogallery-react.vercel.app/",
     },
   ];
 
